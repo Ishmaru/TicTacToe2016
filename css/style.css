@@ -1,0 +1,46 @@
+* {
+  background-color:  #002e4d;
+}
+.gameBoard {
+  width: 400px;
+  background-color: #003366;
+  clear:left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font: 200 72px/1.5 monospace;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #0066cc;
+  border-width: 5px;
+  box-shadow: 5px 3px black;
+  padding: 20px;
+}
+h1, #xy, #ai, #b0, #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8 {
+  text-align: center;
+  color: #66ffff;
+  margin-left: 8px;
+  text-shadow: 3px 3px black;
+}
+
+#ai{
+  font: 200 20px/1.5 monospace;
+}
+
+h1 {
+  font: 200 64px/1.5 monospace;
+}
+
+#xy {
+   text-align:center;
+   font: 200 72px/1.5 monospace;
+}
+
+#b0, #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8 {
+  display: inline;
+  padding: 20px 20px 20px 20px;
+  background-color: #003366;
+  border-style: solid;
+  box-shadow: 5px 3px black;
+  border-radius: 1px;
+}
